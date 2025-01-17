@@ -5,14 +5,17 @@ A dynamic blog website built with **HTML**, **CSS**, **Bootstrap**, **JavaScript
 ## Features
 
 ### User Features
+- Register and log in to an account.
+- Update username and password through profile settings.
+- Create new blog posts and assign categories.
+- Edit or delete their own blog posts.
 - Browse blog posts by category.
 - View individual blog posts with detailed content.
 - Responsive and user-friendly design optimized for all devices.
 
 ### Admin Features
-- Create new blog posts with categories.
-- Edit existing blog posts.
-- Delete blog posts.
+- View and manage all user-created blogs.
+- Edit or delete any blog post.
 - Manage posts through a secure admin panel.
 
 ## Technologies Used
