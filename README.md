@@ -37,3 +37,30 @@ Follow these steps to set up the project locally:
 Use the following command to clone the repository:
 ```bash
 git clone https://github.com/your-username/your-repository.git
+
+### 2. Navigate to the Project Directory
+```bash
+cd your-repository
+
+### 3. Set Up the Database
+- Open your MySQL server (e.g., phpMyAdmin, Workbench, or CLI).
+- Import the provided database.sql file to create the required database and tables.
+- Update the database connection in the config.php file:
+```bash
+  <?php
+  $servername = "localhost";
+  $username = "your-database-username";
+  $password = "your-database-password";
+  $dbname = "your-database-name";
+  ?>
+
+### 4. Run the Project
+- Start your local PHP server using the following command
+```bash
+php -S localhost:8000
+
+Demo Video:
+
+https://github.com/user-attachments/assets/2d698145-9785-4dbd-b4ce-1fe86e72cf31
+
+
